@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-gemini-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "WhatsApp chatbot using Evolution API and Google Gemini API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@google/generative-ai": "^0.11.0",
+    "dotenv": "^16.4.5"
+  }
+}
